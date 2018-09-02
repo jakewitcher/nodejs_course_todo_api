@@ -1,13 +1,17 @@
 {
   "name": "node_todo_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple todo api",
   "main": "app.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec npm test"
   },
-  "author": "",
+  "engines": {
+    "node": "10.8.0"
+  },
+  "author": "Jake Witcher",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
